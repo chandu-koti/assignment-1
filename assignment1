@@ -1,0 +1,23 @@
+1)SYSTEM PROMPT - the system prompt is set of instruction ,rules and role that is given to the AI model. EX- Act like game developer , you must give the data till the knowledge base etc
+USER PROMPT - it is the question the user opted for. EX- what is the design of the game
+
+2) a)LLM- it is an AI model which is trained on large amount of data which can understand , generate tasks
+b)API-An API is that allows a client to communicate with a server by sending requests and receiving responses.
+With GET requests, the client asks the server for data, with POST requests, the client sends data (payload) to the server.”
+c)inference- it is process of running LLM models to generate output
+d)workflow- it is the flow of work by connecting different nodes to execute the process,allowing data to transfer through one node to another ,without manual help.
+
+4)role-based prompting is that we should assign a role in the prompt , where the LLM can understand it and acts like the role that we assigned to it. then the ouput will be better and we can set any guideline for the best format output
+EX- act like a doctor, now read the below medical files and give me the diagnosis of the report.
+guidelines - 1) I want in point wise information
+             2)I want exact diagnosis in single line
+             3)give me the medications for the dignoised disease
+
+5)ollama pull llama3
+
+7)the purpose of system role when using an LLm APIs like gemini or ollama is that when using the system prompt , we can assign them a role when it can behave like that and give the answeers accurately based on the questions we opted for 
+
+9)now you are an helpful assitant for me , answer the questions in concise and point to point structure. dont give me your predictions , i want an exact perfect answer.
+
+10) 1. Hallucination
+    2. lost in middle.
